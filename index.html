@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <link href="css/mobile.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header1">
+            <div class="wrapperheader">
+
+            </div>
+        </div>
+        <div class="header2">
+            <input type="text" id="busca" placeholder="BUSCA por um veículo"/>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="linha">
+            Veículo
+        </div>
+        <div class="linha2">
+            <button id="show-dialog" type="button" class="add"></button>
+        </div>
+        <hr />
+
+        <div class="box">
+            <span class="headerbox">Lista de veículos</span>
+            <div class="veiculobox">
+                <span class="marca" id="marca">fiat</span><br />
+                <span class="modelo" id="modelo">Palio G5 SP 1.6 Flex</span><br />
+                <span class="ano" id="ano">2016</span>
+                <input type="button" class="tick" id="tick1">
+            </div>
+            <div class="veiculobox">
+                <span class="marca" id="marca">fiat</span><br />
+                <span class="modelo" id="modelo">Palio G5 SP 1.6 Flex</span><br />
+                <span class="ano" id="ano">2016</span>
+                <input type="button" class="tick" id="tick2">
+            </div>
+            <div class="veiculobox">
+                <span class="marca" id="marca">fiat</span><br />
+                <span class="modelo" id="modelo">Palio G5 SP 1.6 Flex</span><br />
+                <span class="ano" id="ano">2016</span>
+                <input type="button" class="tick" id="tick3">
+            </div>
+            <div class="veiculobox">
+                <span class="marca" id="marca">fiat</span><br />
+                <span class="modelo" id="modelo">Palio G5 SP 1.6 Flex</span><br />
+                <span class="ano" id="ano">2016</span>
+                <input type="button" class="tick" id="tick4">
+            </div>
+            <div class="veiculobox">
+                <span class="marca" id="marca">fiat</span><br />
+                <span class="modelo" id="modelo">Palio G5 SP 1.6 Flex</span><br />
+                <span class="ano" id="ano">2016</span>
+                <input type="button" class="tick" id="tick5">
+            </div>
+        </div>
+        <div class="box">
+            <span class="headerbox">Detalhes</span>
+            <div class="detalhes">
+                <span class="modelodetalhes">
+                    Palio G5 SP.1.6 Flex
+                </span>
+                <span class="mdetalhes">Marca<br /><label>FIAT</label></span>
+                <span class="adetalhes">
+                    Ano<br /><label>2016</label>
+                </span>
+                <p id="detalhesp">
+                    O Palio é um automóvel compacto produzido pela Fiat,
+                    tendo sido projetado para Mercados emergentes os da América
+                    Latina, África do Sul, Leste Europeu e alguns países Asiáticos.
+                    Seu projeto foi iniciado em 1992, pelo Centro de Estilo da Fiat
+                    junto ao estúdio I.DE.A.
+                </p>
+                <p>
+                    A Fiat já contava com um produto de tamanho similar para o mercado
+                    europeu, o Punto, lançado em 1993 para substituir o Uno, que já
+                    contava com 12 anos de mercado. O projeto, chamado de 178, teria
+                    uma suspensão mais simples e robusta e, ao contrário do Punto, daria
+                    origem uma grande família de produtos.
+                </p>
+                <hr />
+                <input type="button" value="editar" class="editar" id="show-dialog2"/>
+            </div>
+        </div>
+    </div>
+
+    <dialog class="mdl-dialog">
+        <h4>Novo Veículo</h4>
+        <form action="#">
+            <div class="width40">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="txtveiculo">
+                    <label class="mdl-textfield__label" for="txtveiculo">Veículo</label>
+                </div>
+            </div>
+            <div class="width40">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="txtmarca">
+                    <label class="mdl-textfield__label" for="txtmarca">Marca</label>
+                </div>
+            </div>
+        </form>
+        <form action="#">
+            <div class="width40">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+                    <label class="mdl-textfield__label" for="sample4">Ano</label>
+                    <span class="mdl-textfield__error">Digite um número</span>
+                </div>
+            </div>
+            <div class="width40">
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
+                    <input type="checkbox" id="switch-2" class="mdl-switch__input">
+                    <span class="mdl-switch__label"></span>
+                    <span class="vendido">Vendido</span>
+                </label>
+            </div>
+            <div class="width80">
+                <div class="mdl-textfield mdl-js-textfield width100">
+                    <textarea class="mdl-textfield__input" type="text" rows="3" id="sample5"></textarea>
+                    <label class="mdl-textfield__label" for="sample5">Descrição</label>
+                </div>
+            </div>
+        </form>
+
+        <div class="mdl-dialog__actions">
+            <button type="button" class="botao close">Fechar</button>
+            <button type="button" class="botao">Add</button>
+        </div>
+    </dialog>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

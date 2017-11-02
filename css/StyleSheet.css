@@ -1,0 +1,267 @@
+﻿body {
+    margin: 0;
+    background-color: #e2e4e1;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+}
+
+.header1 {
+    width: 50%;
+    background-color: #364147;
+    float: left;
+    height: 60px;
+}
+
+.header2 {
+    width: 50%;
+    background-color: #2a3138;
+    float: left;
+    height: 60px;
+}
+
+
+.wrapper {
+    width: 94.30255402750491%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.wrapperheader {
+    width: 41.302554%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 48%;
+    float: left;
+    padding-left: 2%;
+    margin-bottom: 150px;
+}
+
+.headerbox {
+    font-size: 15px;
+    color: #364147;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.veiculobox {
+    width: 95.83333333333333%;
+    max-width: 460px;
+    background-color: #fff;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+    .veiculobox:last-child {
+        margin-bottom: 0px;
+    }
+
+.detalhes {
+    width: 95.83333333333333%;
+    max-width: 460px;
+    background-color: #fff;
+    padding-bottom: 25px;
+}
+
+.linha {
+    width: 86%;
+    padding-left: 2%;
+    margin-top: 65px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    float: left
+}
+
+.linha2 {
+    width: 10%;
+    float: left;
+    margin-top: 65px;
+}
+
+hr {
+    width: 96%;
+    padding-left: 2%;
+}
+
+.marca {
+    text-transform: uppercase;
+    color: #364147;
+    font-weight: 700;
+    margin-top: 17px;
+}
+
+.modelo {
+    color: #1d7555;
+}
+
+.ano {
+    color: #798083;
+}
+
+#marca, #modelo, #ano {
+    margin-left: 10px;
+    font-size: 15px;
+    float: left;
+    width: 80%;
+}
+
+.modelodetalhes {
+    color: #1d7555;
+    font-size: 19px;
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+    margin-left: 18px;
+}
+
+.mdetalhes, .adetalhes {
+    width: 46%;
+    margin-left: 4%;
+    float: left;
+    margin-top: 34px;
+    font-size: 15px;
+}
+
+    .mdetalhes label, .adetalhes label {
+        color: #8f9597;
+    }
+
+.detalhes p {
+    width: 92%;
+    margin-left: 4%;
+    color: #454545;
+    font-size: 15px;
+    float: left;
+}
+
+#detalhesp {
+    margin-top: 35px;
+}
+
+.editar {
+    width: 148px;
+    margin-left: 4%;
+    height: 48px;
+    background-color: #45535a;
+    text-transform: uppercase;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-image: url(/img/lapis.png);
+    background-repeat: no-repeat;
+    background-position: 10px 14px;
+}
+
+.botao {
+    width: 148px;
+    margin-left: 4%;
+    height: 48px;
+    background-color: #45535a;
+    text-transform: uppercase;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.add {
+    background-image: url(/img/plus.png);
+    width: 28px;
+    height: 28px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.tick {
+    background-image: url(/img/tick.png);
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.tickgreen {
+    background-image: url(/img/tick-verde.png)!important;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.mdl-dialog {
+    width: 700px !important;
+}
+
+h4 {
+    font-size: 31px;
+    color: #353f46;
+}
+
+.width40 {
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+}
+
+.width80 {
+    width: 85%;
+    margin-left: 5%;
+    float: left;
+}
+
+.width100 {
+    width: 100% !important;
+}
+
+.mdl-dialog__actions {
+    float: left;
+    width: 94%;
+}
+
+.mdl-switch {
+    margin-top: 15px !important;
+}
+
+.vendido {
+    font-size: 14px;
+    color: #818181;
+    margin-left: 20px;
+}
+
+.logotipo {
+    float: left;
+    margin-top: 14px;
+    background-image: url(/img/logo.png);
+    width: 24px;
+    height: 35px;
+}
+
+header span {
+    text-transform: uppercase;
+    color: #f4f6f3;
+    margin-top: -23px;
+    margin-left: 35px;
+    display: block;
+    font-size: 19px;
+}
+
+#busca {
+    height: 54px;
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    padding-left: 24px;
+    color: #a4a5a3;
+    font-size: 15px;
+    border: none;
+}
